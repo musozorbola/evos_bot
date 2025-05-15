@@ -1,0 +1,20 @@
+.container {
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.inner-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+}
+p{
+padding-top: -90px;
+}
